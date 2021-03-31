@@ -1,0 +1,220 @@
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+body {
+  padding-top: 56px;
+}
+
+
+
+@media (max-width: 767.98px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 56px; /* Height of navbar */
+    bottom: 0;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    background-color: var(--gray-dark);
+    transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  .offcanvas-collapse.open {
+    -webkit-transform: translateX(-1rem);
+    transform: translateX(-1rem); /* Account for horizontal padding on navbar */
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  color: rgba(255, 255, 255, .75);
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: var(--secondary);
+}
+
+.nav-underline .nav-link:hover {
+  color: var(--blue);
+}
+
+.nav-underline .active {
+  font-weight: 500;
+  color: var(--gray-dark);
+}
+
+.text-white-50 { color: rgba(255, 255, 255, .5); }
+.text-black-50 { color:black }
+
+.bg-ALTheme { background: l#2196F3; /* fallback for old browsers */
+  background: linear-gradient(to right,#2196F3, #2196F3
+, #2196F3);} 
+.bg-purple { background-color: var(--purple); }
+
+.bg-theme{ background: gr; /* fallback for old browsers */
+  background: linear-gradient(to right,#66ff33,    #b3ffb3
+, #66ff33);}
+
+.bg-LBlue{ background: aqua; /* fallback for old browsers */
+  background: linear-gradient(to right,#00e6e6,    #4dffff
+, #00e6e6);}
+
+.bg-LOrange{ background: #ffb366; /* fallback for old browsers */
+  background: linear-gradient(to right,#ff6600,  #ffa366
+, #ff6600);}
+
+
+
+.bg-GrayDark { background-color:#e6e6e6 }
+
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+
+.lh-100 { line-height: 1; }
+.lh-125 { line-height: 1.25; }
+.lh-150 { line-height: 1.5; }
+
+/*
+ * Dark Mode
+ */
+
+ #first
+ {
+ 
+   width: 100%;
+ }
+
+ .dark-mode {
+  background-color: #002125;
+  color: white;
+  
+}
+
+div{
+
+  background-color: white;
+}
+
+.dark-mode2 {
+  background-color:  #1f1f1f;
+  color: white;
+  
+  
+  
+}
+
+strong{
+
+  color: black;
+}
+a{
+  color: rgb(102, 109, 116);
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+.button {
+  background-color: rgb(255, 255, 255); /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  bottom:0px;
+  width: 90px;
+  cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+                .button5 {border-radius: 50%;
+          margin-left: 670px;
+          bottom:0px;
+          position: fixed; 
+          width: 90px; 
+  }
+
+
+  
+}
+
+@media screen and (max-width: 450px) {
+                .button5 {border-radius: 50%;
+          margin-left: 340px;
+          bottom:0px;
+          position: fixed; 
+          width: 80px; 
+  }
+}
+
+  @media screen and (max-width: 430px) {
+    .button5 {border-radius: 50%;
+margin-left: 345px;
+bottom:0px;
+position: fixed; 
+width: 80px; 
+}
+  
+}
+@media screen and (max-width: 400px) {
+                .button5 {border-radius: 50%;
+          margin-left: 310px;
+          bottom:0  px;
+          position: fixed; 
+          width: 77px; 
+  }
+  
+}
+
+  @media screen and (max-width: 360px) {
+          .button5 {border-radius: 50%;
+          margin-left: 292px;
+          bottom:0px;
+          position: fixed; 
+          width: 76px; 
+  }
+}
+  @media screen and (max-width: 330px) {
+                .button5 {border-radius: 50%;
+          margin-left: 250px;
+          bottom:0px;
+          position: fixed;  
+          width:80px;
+  }
+}

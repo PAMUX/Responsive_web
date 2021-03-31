@@ -1,0 +1,262 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    width: 100%;
+    isolation: isolate;
+}
+
+*:focus {
+    outline: 0 !important;
+  }
+  .dark-mode {
+    background-color: #002125;
+    color: white;
+    
+  }
+
+.button {
+    background-color: rgb(255, 255, 255); /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    bottom:0px;
+    width: 90px;
+    cursor: pointer;
+  }
+  #dropDownTopic{
+    background-color: rgb(100, 100, 100);
+    font-size: 27px;
+   
+     }
+
+  #dropb{
+    top: 2%;
+    right: 38%;
+    position: fixed;
+  }   
+
+  a{
+      font-size: 22px;
+      
+  }
+  p{
+    font-size: 50px; 
+    font-family: 'Comic Neue', cursive;
+    
+  }
+  h1{
+    font-size: 70px;
+     margin-top: 50px;
+     font-family: 'Comic Neue', cursive;
+  }
+  li{
+    font-size: 40px;
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 1000px) {
+                  .button5 {border-radius: 50%;
+            margin-left: 670px;
+            bottom:0px;
+            position: fixed; 
+            width: 100px; 
+    }
+
+       #dropDownTopic{
+         font-size: 25px;
+         }
+         a{
+            font-size: 20px;
+        }
+        #dropb{
+           left: 270px;
+          }  
+          h1{
+            font-size: 65px;
+            margin-top: 50px;
+            font-family: 'Comic Neue', cursive;
+          }
+          
+          li{
+            font-size: 35px;
+          }
+          p{
+            font-size: 45px; 
+            font-family: 'Comic Neue', cursive;
+          }
+
+    
+  }
+  
+  @media screen and (max-width: 450px) {
+                  .button5 {border-radius: 50%;
+            margin-left: 340px;
+            bottom:0px;
+            position: fixed; 
+            width: 80px; 
+    }
+    #dropDownTopic{
+      font-size: 17px;
+        }
+        a{
+            font-size: 18px;
+        }
+        #dropb{
+            left: 140px;
+           }  
+
+           h1{
+            font-size: 45px;
+            margin-top: 50px;
+            font-family: 'Comic Neue', cursive;
+          }
+          
+          p{
+            font-size: 35px; 
+            font-family: 'Comic Neue', cursive;
+          }
+          li{
+            font-size: 25px;
+          }
+           
+ 
+         
+  }
+  
+    @media screen and (max-width: 430px) {
+      .button5 {border-radius: 50%;
+  margin-left: 345px;
+  bottom:0px;
+  position: fixed; 
+  width: 80px; 
+  }
+  #dropDownTopic{    
+    font-size: 16px;
+    }
+    a{
+        font-size: 17px;
+    }
+    #dropb{
+        left: 135px;
+       } 
+       h1{
+        font-size: 45px;
+        margin-top: 50px;
+        font-family: 'Comic Neue', cursive;
+      }
+      
+      p{
+        font-size: 35px; 
+        font-family: 'Comic Neue', cursive;
+      }
+      li{
+        font-size: 25px;
+      }
+
+  }
+  @media screen and (max-width: 400px) {
+                  .button5 {border-radius: 50%;
+            margin-left: 310px;
+            bottom:0  px;
+            position: fixed; 
+            width: 77px; 
+    }
+    #dropDownTopic{     
+        font-size: 15px;
+        }
+        a{
+            font-size: 16px;
+        }
+        #dropb{
+            left: 120px;
+           } 
+           h1{
+            font-size: 42px;
+            margin-top: 52px;
+            font-family: 'Comic Neue', cursive;
+          }
+          
+          p{
+            font-size: 34px; 
+            font-family: 'Comic Neue', cursive;
+          }
+          li{
+            font-size: 22px;
+          }
+    
+  }
+  
+    @media screen and (max-width: 360px) {
+            .button5 {border-radius: 50%;
+            margin-left: 292px;
+            bottom:0px;
+            position: fixed; 
+            width: 76px; 
+    }
+    #dropDownTopic{  
+        font-size: 14px;
+        }
+        a{
+            font-size: 15px;
+        }
+        #dropb{
+            left: 110px;
+           } 
+           h1{
+            font-size: 40px;
+            margin-top: 50px;
+            font-family: 'Comic Neue', cursive;
+          }
+          
+          p{
+            font-size: 30px; 
+            font-family: 'Comic Neue', cursive;
+          }
+          li{
+            font-size: 21px;
+          }
+
+  }
+    @media screen and (max-width: 330px) {
+                  .button5 {border-radius: 50%;
+            margin-left: 250px;
+            bottom:0px;
+            position: fixed;  
+            width:80px;
+    }
+    #dropDownTopic{
+      
+        font-size: 13px;
+        }
+        a{
+            font-size: 14px;
+        }
+        #dropb{
+            left: 90px;
+           } 
+           h1{
+            font-size: 34px;
+            margin-top: 50px;
+            font-family: 'Comic Neue', cursive;
+          }
+          
+          p{
+            font-size: 26px; 
+            font-family: 'Comic Neue', cursive;
+          }
+          li{
+            font-size: 18px;
+          }
+
+
+  }
